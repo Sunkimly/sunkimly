@@ -259,7 +259,7 @@ export default function Home() {
               >
                 <div className="text-6xl font-bold bg-gradient-to-r from-blue-500 to-sky-400 bg-clip-text text-transparent">
                   <Image
-                    src="/samat.PNG"
+                    src="/samat.png"
                     alt="Samat"
                     fill
                     className="object-cover rounded-xl"
