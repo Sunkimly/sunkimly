@@ -134,7 +134,7 @@ export default function Projects() {
                 )}
               </div>
 
-              {/* Project Content */}
+              {/* Project Conmtent */}
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">
                   {project.title}
