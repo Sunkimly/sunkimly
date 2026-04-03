@@ -7,38 +7,38 @@ import aws from "../public/certificate/aws.png";
 
 export default function Certificates() {
   const certificates = [
-    {
-      id: 1,
-      title: "Cambodian Baccalaureate Certificate",
-      issuer: "Ministry of Education, Youth and Sport",
-      date: "December 2022",
-      credential: "/certificate/diploma.pdf",
-      image: diploma,
-    },
-    {
-      id: 2,
-      title: "HTML,Bootstrap and JavaScript ,React, & Project Course",
-      issuer: "ETEC Center",
-      date: "June/15/2025",
-      credential: "/certificate/web.png",
-      image: "/certificate/web.png",
-    },
-    {
-      id: 3,
-      title: "Python Course",
-      issuer: "ETEC Center",
-      date: "May/15/2025",
-      credential: "/certificate/py.png",
-      image: "/certificate/py.png",
-    },
-    {
-      id: 4,
-      title: "Official Transcript ",
-      issuer: "RUPP University",
-      date: "2025",
-      credential: "/certificate/transcriptrupp.pdf",
-      image: "/certificate/tr.png",
-    },
+    // {
+    //   id: 1,
+    //   title: "Cambodian Baccalaureate Certificate",
+    //   issuer: "Ministry of Education, Youth and Sport",
+    //   date: "December 2022",
+    //   credential: "/certificate/diploma.pdf",
+    //   image: diploma,
+    // },
+    // {
+    //   id: 2,
+    //   title: "HTML,Bootstrap and JavaScript ,React, & Project Course",
+    //   issuer: "ETEC Center",
+    //   date: "June/15/2025",
+    //   credential: "/certificate/web.png",
+    //   image: "/certificate/web.png",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Python Course",
+    //   issuer: "ETEC Center",
+    //   date: "May/15/2025",
+    //   credential: "/certificate/py.png",
+    //   image: "/certificate/py.png",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Official Transcript ",
+    //   issuer: "RUPP University",
+    //   date: "2025",
+    //   credential: "/certificate/transcriptrupp.pdf",
+    //   image: "/certificate/tr.png",
+    // },
     // {
     //   id: 5,
     //   title: "Responsive Web Design",
@@ -47,14 +47,14 @@ export default function Certificates() {
     //   credential: "#",
     //   image: "/certificates/webdesign.png",
     // },
-    {
-      id: 6,
-      title: "AWS Academy Graduate Cloud Foundations",
-      issuer: "AWS Academy",
-      date: "11/13/2025",
-      credential: "/certificate/AWS_Academy.pdf",
-      image: aws, // local imported image
-    },
+    // {
+    //   id: 6,
+    //   title: "AWS Academy Graduate Cloud Foundations",
+    //   issuer: "AWS Academy",
+    //   date: "11/13/2025",
+    //   credential: "/certificate/AWS_Academy.pdf",
+    //   image: aws, // local imported image
+    // },
   ];
 
   return (

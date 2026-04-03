@@ -23,11 +23,11 @@ export default function Resume() {
 
   const experience = [
     {
-      title: "Frontend Development Projects",
+      title: "Flutter App Projects",
       type: "Personal Practice",
       description:
-        "Building responsive web applications with React, Next.js, and Tailwind CSS to improve frontend skills and UI design.",
-    },
+        "Building responsive and user-friendly mobile apps using Flutter and Dart to improve app development skills and UI/UX design.",
+    }
   ];
 
   const education = [
@@ -42,9 +42,10 @@ export default function Resume() {
       institution: "Teok Phos High School",
       description: "2020 – 2022",
     },
+    
     {
       title: "Secondary School Education",
-      institution: "Chaong Maong Secondary School",
+      institution: "Teok Phos High School",
       description: "2017 – 2020",
     },
   ];

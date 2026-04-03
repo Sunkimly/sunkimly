@@ -47,8 +47,8 @@ export default function Projects() {
       description:
         "A small online shop project designed using Figma, showcasing UI/UX design skills and creativity.",
       tech: ["Figma", "UI/UX Design"],
-      github: "https://github.com",
-      live: "https://www.figma.com/proto/P6ya4cTpGNv1qJgPnnmX45/Untitled?node-id=1-98",
+      github: "https://github.com/Sunkimly/rupp_app_clothes.git",
+      live: "https://github.com/Sunkimly/rupp_app_clothes.git",
       status: "50% completed",
       image: "/project/onlineShop.png",
     },

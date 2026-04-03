@@ -136,8 +136,7 @@ export default function Home() {
             </div>
 
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-xl leading-relaxed">
-              I design and build modern, responsive websites using React and
-              Tailwind CSS, blending clean UI with elegant details.
+              I create modern, responsive apps and websites, combining clean design with elegant, user-friendly interfaces.
             </p>
 
             {/* Buttons */}
@@ -260,7 +259,7 @@ export default function Home() {
               >
                 <div className="text-6xl font-bold bg-gradient-to-r from-blue-500 to-sky-400 bg-clip-text text-transparent">
                   <Image
-                    src="/samat.png"
+                    src="/samat.PNG"
                     alt="Samat"
                     fill
                     className="object-cover rounded-xl"

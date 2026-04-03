@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   // title: 'Junior Full-Stack Developer | Portfolio',
-  title: "Toem Samat",
+  title: "Sun Kimly",
   description:
     "Portfolio showcasing full-stack development projects, skills, and experience",
   generator: "v0.app",

@@ -1,22 +1,24 @@
 "use client";
 
+import { FaJava } from "react-icons/fa";
 import {
   SiHtml5,
-  SiCss3,
-  SiBootstrap,
   SiTailwindcss,
   SiJavascript,
-  SiVuedotjs,
-  SiReact,
-  SiNodedotjs,
+  SiJava,
+  SiCsharp,
+  SiKotlin,
+  SiDart,
   SiLaravel,
-  SiMongodb,
+  SiMysql,
   SiGit,
   SiFigma,
-  SiMysql,
   SiDocker,
   SiPostman,
+  SiFlutter,
+  SiSharp,
 } from "react-icons/si";
+
 
 export default function Skills() {
   const skillCategories = [
@@ -45,31 +47,45 @@ export default function Skills() {
           iconColor: "text-yellow-400",
         },
         {
-          name: "Vue.js",
-          level: 55,
-          Icon: SiVuedotjs,
-          gradient: "from-green-400 to-green-600",
-          iconColor: "text-green-500",
+          name: "Java",
+          level: 65,
+          Icon: FaJava,
+          gradient: "from-red-500 to-orange-500",
+          iconColor: "text-red-500",
         },
         {
-          name: "React.js",
-          level: 45,
-          Icon: SiReact,
-          gradient: "from-sky-400 to-sky-600",
-          iconColor: "text-sky-400",
+          name: "C#",
+          level: 60,
+          Icon: SiSharp,
+          gradient: "from-purple-500 to-purple-700",
+          iconColor: "text-purple-500",
+        },
+        {
+          name: "Kotlin",
+          level: 55,
+          Icon: SiKotlin,
+          gradient: "from-purple-400 to-pink-500",
+          iconColor: "text-purple-400",
+        },
+        {
+          name: "Dart",
+          level: 70,
+          Icon: SiDart,
+          gradient: "from-blue-400 to-blue-600",
+          iconColor: "text-blue-500",
+        },
+        {
+          name: "Flutter",
+          level: 75,
+          Icon: SiFlutter,
+          gradient: "from-sky-400 to-blue-600",
+          iconColor: "text-sky-500",
         },
       ],
     },
     {
       category: "Backend",
       skills: [
-        {
-          name: "Node.js",
-          level: 40,
-          Icon: SiNodedotjs,
-          gradient: "from-green-500 to-green-700",
-          iconColor: "text-green-600",
-        },
         {
           name: "Laravel",
           level: 40,
@@ -78,16 +94,9 @@ export default function Skills() {
           iconColor: "text-red-500",
         },
         {
-          name: "MongoDB",
-          level: 40,
-          Icon: SiMongodb,
-          gradient: "from-green-600 to-green-800",
-          iconColor: "text-green-700",
-        },
-        {
           name: "MySQL",
           level: 60,
-          Icon: SiMysql, // Placeholder icon, replace with MySQL icon if available
+          Icon: SiMysql,
           gradient: "from-blue-500 to-blue-700",
           iconColor: "text-blue-500",
         },
@@ -113,14 +122,14 @@ export default function Skills() {
         {
           name: "Docker",
           level: 40,
-          Icon: SiDocker, // Placeholder icon, replace with Docker icon if available
+          Icon: SiDocker,
           gradient: "from-blue-500 to-blue-700",
           iconColor: "text-blue-500",
         },
-         {
+        {
           name: "Postman",
           level: 80,
-          Icon: SiPostman, // Placeholder icon, replace with Docker icon if available
+          Icon: SiPostman,
           gradient: "from-orange-500 to-orange-700",
           iconColor: "text-orange-500",
         },
@@ -136,13 +145,11 @@ export default function Skills() {
       dark:from-slate-900 dark:via-slate-950 dark:to-slate-900
       transition-colors duration-500"
     >
-      {/* glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[650px] h-[650px] bg-primary/10 blur-[120px] rounded-full pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto">
-        {/* title */}
         <div className="mb-20 text-center">
-          <h2 className="text-4xl md:text-4xl font-bold text-gray-800 dark:text-white">
+          <h2 className="text-4xl font-bold text-gray-800 dark:text-white">
             My{" "}
             <span className="bg-gradient-to-r from-blue-500 to-sky-400 bg-clip-text text-transparent">
               Skills
@@ -154,7 +161,6 @@ export default function Skills() {
           </p>
         </div>
 
-        {/* grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {skillCategories.map((category) => (
             <div
@@ -168,11 +174,13 @@ export default function Skills() {
                   const IconComponent = skill.Icon;
 
                   return (
-                    <div key={skill.name}>
-                      {/* header */}
+                    <div
+                      key={skill.name}
+                      className="group hover:scale-[1.02] transition-transform duration-300"
+                    >
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-3">
                         <IconComponent
-                          className={`w-6 h-6 ${skill.iconColor}`}
+                          className={`w-6 h-6 ${skill.iconColor} group-hover:rotate-6 transition-transform`}
                         />
 
                         <div className="flex-1 flex justify-between text-sm">
@@ -183,11 +191,13 @@ export default function Skills() {
                         </div>
                       </div>
 
-                      {/* progress bar */}
                       <div className="w-full h-2.5 bg-muted rounded-full overflow-hidden">
                         <div
-                          className={`h-full bg-gradient-to-r ${skill.gradient} rounded-full transition-all duration-1000 ease-out`}
-                          style={{ width: `${skill.level}%` }}
+                          className={`h-full bg-gradient-to-r ${skill.gradient} rounded-full`}
+                          style={{
+                            width: `${skill.level}%`,
+                            transition: "width 1.2s ease-in-out",
+                          }}
                         />
                       </div>
                     </div>
