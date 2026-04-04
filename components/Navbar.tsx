@@ -68,7 +68,7 @@ export default function Navbar() {
               {/* <Image src={morningglory} alt="flower" width={24} height={24} /> */}
               <Image src={mexicanaster} alt="flower" width={24} height={24} />
               <span className="bg-gradient-to-r from-blue-500 to-sky-400 bg-clip-text text-transparent">
-                T S
+                S K
               </span>
 
               {/* <Image src={mexicanaster} alt="flower" width={24} height={24} /> */}

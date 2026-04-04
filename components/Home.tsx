@@ -192,7 +192,7 @@ export default function Home() {
                 {/* Icons */}
                 <div className="flex gap-4">
                   <Link
-                    href="https://github.com/toemsamat"
+                    href="https://github.com/sunkimly"
                     target="_blank"
                     className="w-10 h-10 flex items-center justify-center rounded-full 
         bg-white dark:bg-slate-800
@@ -202,7 +202,7 @@ export default function Home() {
                   </Link>
 
                   <Link
-                    href="https://facebook.com/toemsamat29"
+                    href="https://facebook.com/Millie Millie"
                     target="_blank"
                     className="w-10 h-10 flex items-center justify-center rounded-full 
         bg-white dark:bg-slate-800
@@ -212,7 +212,7 @@ export default function Home() {
                   </Link>
 
                   <Link
-                    href="https://www.linkedin.com/in/toem-samat-827b69363/"
+                    href="https://www.linkedin.com/in/Miliie Millie"
                     target="_blank"
                     className="w-10 h-10 flex items-center justify-center rounded-full 
         bg-white dark:bg-slate-800
@@ -222,7 +222,7 @@ export default function Home() {
                   </Link>
 
                   <Link
-                    href="https://www.instagram.com/toemsamat/?__pwa=1"
+                    href="https://www.instagram.com/Sun Kimly"
                     target="_blank"
                     className="w-10 h-10 flex items-center justify-center rounded-full 
         bg-white dark:bg-slate-800
@@ -232,7 +232,7 @@ export default function Home() {
                   </Link>
 
                   <Link
-                    href="https://www.tiktok.com/@toemsamat"
+                    href="https://www.tiktok.com/Millie Millie"
                     target="_blank"
                     className="w-10 h-10 flex items-center justify-center rounded-full 
         bg-white dark:bg-slate-800

@@ -8,6 +8,7 @@ import clothesapp from "../public/project/clothesapp.png";
 import bankapp from "../public/project/bankapp.png";
 import uxuiappclothes from "../public/project/uxuiappclothes.png";
 import uxuisystemproject from "../public/project/uxuisystemproject.png";
+import kotlin from "../public/project/kotlin.png";
 export default function Projects() {
   const projects = [
     {
@@ -15,7 +16,7 @@ export default function Projects() {
       title: "clothesapp",
       description:
         "A project app developed as part of my assignment at Royal University of Phnom Penh (RUPP), designed to offer a seamless shopping experience for clothing items.",
-      tech: ["Dart", "Flutter"],
+      tech: ["Dart", "Flutter","Android Studio"],
       github: "https://github.com/Sunkimly/RUPP.git",
       live: "https://github.com/Sunkimly/RUPP.git",
       status: "completed",
@@ -26,7 +27,7 @@ export default function Projects() {
       title: "bankapp",
       description:
         "A project app developed as part of my final at ETEC Center, designed to offer a seamless banking experience.",
-      tech: ["Dart", "Flutter"],
+      tech: ["Dart", "Flutter","Android Studio"],
       github: "https://github.com/Sunkimly/bank.git",
       live: "https://github.com/Sunkimly/bank.git",
       status: "completed",
@@ -54,17 +55,17 @@ export default function Projects() {
       status: "completed",
       image: uxuisystemproject,
     },
-    // {
-    //   id: 5,
-    //   title: "Weather Dashboard",
-    //   description:
-    //     "Weather application with location-based forecasts, current conditions, and beautiful visualizations.",
-    //   tech: ["React", "OpenWeather API", "Chart.js"],
-    //   github: "https://github.com",
-    //   live: "https://example.com",
-    //   status: "completed",
-    //   image: "/projects/weather.png",
-    // },
+    {
+      id: 5,
+      title: "kotlin",
+      description:
+        "A project app developed using Kotlin as part of my assignment at Royal University of Phnom Penh (RUPP), designed to offer a seamless shopping experience for clothing items.",
+      tech: ["Kotlin", "Android Studio"],
+      github: "https://github.com",
+      live: "https://example.com",
+      status: "completed",
+      image: kotlin,
+    },
     // {
     //   id: 6,
     //   title: "Portfolio Website",
