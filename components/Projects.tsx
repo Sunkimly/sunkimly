@@ -2,55 +2,57 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import personal_portfolio from "../public/project/personal_portfolio.png";
 import online_exam from "../public/project/online_exam.png";
 import quick_rent from "../public/project/room_rent.png";
-
+import clothesapp from "../public/project/clothesapp.png";
+import bankapp from "../public/project/bankapp.png";
+import uxuiappclothes from "../public/project/uxuiappclothes.png";
+import uxuisystemproject from "../public/project/uxuisystemproject.png";
 export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Personal Portfolio",
+      title: "clothesapp",
       description:
-        "Developed collaboratively with my teammate during my scholarship at ANT Training Center.",
-      tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-      github: "https://github.com/toemsamat/ANT-Portfolio-miniproject",
-      live: "https://ant-portfolio-miniproject.vercel.app/",
+        "A project app developed as part of my assignment at Royal University of Phnom Penh (RUPP), designed to offer a seamless shopping experience for clothing items.",
+      tech: ["Dart", "Flutter"],
+      github: "https://github.com/Sunkimly/RUPP.git",
+      live: "https://github.com/Sunkimly/RUPP.git",
       status: "completed",
-      image: personal_portfolio,
+      image: clothesapp,
     },
     {
       id: 2,
-      title: "Online Exam",
+      title: "bankapp",
       description:
-        "Developed collaboratively with my teammate during my scholarship at ANT Training Center.",
-      tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-      github: "https://github.com/toemsamat/ant-online-exam-management",
-      live: "https://oem-user.vercel.app/",
+        "A project app developed as part of my final at ETEC Center, designed to offer a seamless banking experience.",
+      tech: ["Dart", "Flutter"],
+      github: "https://github.com/Sunkimly/bank.git",
+      live: "https://github.com/Sunkimly/bank.git",
       status: "completed",
-      image: online_exam,
+      image: bankapp,
     },
     {
       id: 3,
-      title: "Quick Rent",
+      title: "uxuiappclothes",
       description:
-        "Developed collaboratively with my teammate during my scholarship at ANT Training Center.",
-      tech: ["Vue.js", "Tailwind CSS"],
-      github: "https://github.com/BetSiNet/vue_final-project_quick-rent",
-      live: "https://vue-final-project-quick-rent.vercel.app/",
+        "A project focused on UX/UI design, developed as part of my assignment at Royal University of Phnom Penh (RUPP). The goal was to create a user-friendly and visually appealing interface for a clothing shopping app, with an emphasis on intuitive navigation and a seamless shopping experience.",
+      tech: ["Figma", "UI/UX Design"],
+      github: "https://www.figma.com/design/jMOgB0RGlf6kyK5eRHGHDd/Kotlin-Clothes?node-id=263-1118&t=ieesoBSf9CAGQ7Pj-1",
+      live: "https://www.figma.com/design/jMOgB0RGlf6kyK5eRHGHDd/Kotlin-Clothes?node-id=263-1118&t=ieesoBSf9CAGQ7Pj-1",
       status: "completed",
-      image: quick_rent,
+      image: uxuiappclothes,
     },
     {
       id: 4,
-      title: "Online Shop Small Project",
+      title: "uxuisystemproject",
       description:
-        "A small online shop project designed using Figma, showcasing UI/UX design skills and creativity.",
+        "A project focused on UX/UI design, developed as part of my assignment at Royal University of Phnom Penh (RUPP). The goal was to create a user-friendly and visually appealing interface for a Restaurant Management System (RMS) project, with an emphasis on intuitive navigation and a seamless shopping experience.",
       tech: ["Figma", "UI/UX Design"],
-      github: "https://github.com/Sunkimly/rupp_app_clothes.git",
-      live: "https://github.com/Sunkimly/rupp_app_clothes.git",
-      status: "50% completed",
-      image: "/project/onlineShop.png",
+      github: "https://www.figma.com/design/AlPoIClzt1LbeEE3JbtO71/Untitled?node-id=0-1&t=yLuINRWUCNHN7ZKR-1",
+      live: "https://www.figma.com/design/AlPoIClzt1LbeEE3JbtO71/Untitled?node-id=0-1&t=yLuINRWUCNHN7ZKR-1",
+      status: "completed",
+      image: uxuisystemproject,
     },
     // {
     //   id: 5,

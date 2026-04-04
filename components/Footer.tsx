@@ -8,30 +8,30 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/toemsamat", label: "GitHub" },
+    { icon: Github, href: "https://github.com/sun kimly", label: "GitHub" },
     {
       icon: Linkedin,
-      href: "https://www.linkedin.com/in/toem-samat-827b69363/",
+      href: "https://www.linkedin.com/in/Sun Kimly",
       label: "LinkedIn",
     },
     {
       icon: Facebook,
-      href: "https://facebook.com/toemsamat29",
+      href: "https://facebook.com/Millie Millie",
       label: "Facebook",
     },
     {
       icon: FaTiktok,
-      href: "https://www.tiktok.com/@toemsamat",
+      href: "https://www.tiktok.com/Alibaba",
       label: "TikTok",
     },
     {
       icon: FaTelegram,
-      href: "https://t.me/toemsamat",
+      href: "https://t.me/@Kimly_CS26",
       label: "Telegram",
     },
     {
       icon: Instagram,
-      href: "https://instagram.com/toemsamat/?__pwa=1",
+      href: "https://instagram.com/Millie Millie",
       label: "Instagram",
     },
   ];
@@ -47,10 +47,10 @@ export default function Footer() {
  bg-linear-to-r from-blue-500 to-sky-400 bg-clip-text text-transparent
   "
             >
-              Toem Samat
+              Sun Kimly
             </h2>
             <p className="text-slate-400 text-sm leading-relaxed max-w-md ">
-              Web Developer passionate about building modern, responsive, and
+              App Developer passionate about building modern, responsive, and
               user-friendly applications.
             </p>
           </div>
@@ -83,9 +83,9 @@ export default function Footer() {
           <p className="text-sm text-slate-400 ">
             © {currentYear}{" "}
             <span className="bg-gradient-to-r from-blue-500 to-sky-400 bg-clip-text text-transparent">
-              Toem Samat.
+              Sun Kimly
             </span>{" "}
-            | Built with Next.js & Tailwind CSS
+            | Built with Dart & Flutter
           </p>
         </div>
       </div>

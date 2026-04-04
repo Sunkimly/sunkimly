@@ -43,27 +43,27 @@ export default function Contact() {
   const socials = [
     {
       icon: Github,
-      url: "https://github.com/toemsamat",
+      url: "https://github.com/sun kimly",
     },
     {
       icon: Linkedin,
-      url: "https://www.linkedin.com/in/toem-samat-827b69363/",
+      url: "https://www.linkedin.com/in/Sun Kimly",
     },
     {
       icon: Instagram,
-      url: "https://instagram.com/toemsamat/?__pwa=1",
+      url: "https://instagram.com/Millie Millie",
     },
     {
       icon: Facebook,
-      url: "https://facebook.com/toemsamat29",
+      url: "https://facebook.com/Millie Millie",
     },
     {
       icon: FaTiktok,
-      url: "https://www.tiktok.com/@toemsamat",
+      url: "https://www.tiktok.com/Alibaba",
     },
     {
       icon: FaTelegram,
-      url: "https://t.me/toemsamat",
+      url: "https://t.me/@Kimly_CS26",
     },
   ];
 
@@ -192,14 +192,14 @@ export default function Contact() {
                   Email
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  samattoem22@gmail.com
+                  sunkimly8823@gmail.com
                 </p>
               </div>
             </Link>
 
             {/* Phone */}
             <Link
-              href="tel:+855123456789"
+              href="tel:+855882346389"
               className="flex items-start gap-4 p-6 rounded-2xl
               bg-white/70 dark:bg-slate-900/70
               border border-blue-100 dark:border-slate-700
@@ -213,7 +213,7 @@ export default function Contact() {
                   Phone
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  +855 96 75 16 361
+                  +855 88 23 46 389
                 </p>
               </div>
             </Link>
